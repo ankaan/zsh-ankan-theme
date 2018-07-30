@@ -94,7 +94,7 @@ function prompt_ankan_setup {
 
   # Define prompts.
   PROMPT="${_prompt_ankan_usercolor}%n%f@${_prompt_ankan_colors[3]}%m%f: ${_prompt_ankan_colors[5]}%~%f "'${vcs_info_msg_0_}'"
-"'$python_info[virtualenv]'"${_prompt_ankan_usercolor}$%f "
+"${_prompt_ankan_usercolor}'$python_info[virtualenv]'"$%f "
 
 #RPROMPT='${_prompt_ankan_colors[1]}1%f${_prompt_ankan_colors[2]}2%f${_prompt_ankan_colors[3]}3%f${_prompt_ankan_colors[4]}4%f${_prompt_ankan_colors[5]}5%f'
   RPROMPT='${_prompt_ankan_usercolor}[%D{%F %T}]%f'
